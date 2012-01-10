@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Explaination:</b>
+  <%= @tip.explaination %>
+</p>
+
+<p>
+  <b>Fobar:</b>
+  <%= @tip.fobar %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @tip.user %>
+</p>
+
+<p>
+  <b>Votes:</b>
+  <%= @tip.votes %>
+</p>
+
+
+<%= link_to 'Edit', edit_tip_path(@tip) %> |
+<%= link_to 'Back', tips_path %>

@@ -1,0 +1,8 @@
+<div id="tips"></div>
+
+<script type="text/javascript">
+  $(function() {
+      window.router = new Oops.Routers.TipsRouter({tips: <%= @tips.to_json.html_safe -%>});
+      Backbone.history.start();
+      });
+</script>
