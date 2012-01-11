@@ -9,6 +9,10 @@ gem 'sqlite3'
 gem 'rails-backbone'
 gem 'twitter-bootstrap-rails'
 
+gem 'haml'
+gem 'jquery-rails'
+gem 'devise'
+gem 'omniauth-openid'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -18,13 +22,12 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
