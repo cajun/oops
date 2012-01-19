@@ -4,10 +4,10 @@ one:
   explaination: MyString
   fobar: MyString
   user: MyString
-  votes: 1
+  votes: 0
 
 two:
   explaination: MyString
   fobar: MyString
   user: MyString
-  votes: 1
+  votes: 0

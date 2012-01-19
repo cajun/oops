@@ -1,7 +1,6 @@
 Oops::Application.routes.draw do
 
   post "votes/create"
-
   delete "votes/destroy"
 
   resources :tips

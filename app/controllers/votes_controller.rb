@@ -2,11 +2,11 @@ class VotesController < ApplicationController
   before_filter :init_tip
 
   def create
-    @tip.upvote
+    @tip.upvote!
   end
 
   def destroy
-    @tip.downvote
+    @tip.downvote!
   end
 
   private 
